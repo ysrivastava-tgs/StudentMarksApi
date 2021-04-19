@@ -64,17 +64,7 @@ namespace StudentApi.Controllers
         [HttpPut("Update/{studId}/{subjId}")]
         public async Task<IActionResult> Put(string studId,[FromQuery]int marks,string subjId)
         {
-           /* if (string.IsNullOrEmpty(studModel.StudId))
-            {
-                return BadRequest();
-            }*/
-
-           /* if (ModelState.IsValid)
-            {
-                await _repo.Update(studModel);
-
-                return Ok(studModel);
-            }*/
+         
             await _repo.Update(studId, subjId,marks);
             return Ok();
         }
@@ -82,22 +72,9 @@ namespace StudentApi.Controllers
         // GET: Employee/Delete/5
         public  async Task <IActionResult> Delete(string studId,string subjId)
         {
-            /*if (studId == null)
-            {
-                return NotFound();
-            }
-
-            var marksModel = await _repo.Get(studId);
-            if (marksModel == null)
-            {
-                return NotFound();
-            }
-*/
+           
             await _repo.Delete(studId, subjId);
-           /* var context = new AppDbContext();
-            var obj = new MarksModel();
-
-            var list = context.MarksModel.Where(m => m.Subjid == subjId && m.StudId == studId).ToList();*/
+          
 
             return Ok();
         }
