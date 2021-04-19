@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApi", "BookApi\StudentApi.csproj", "{F991466A-19F0-4376-BC57-06275E5BB00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{D1FB66AD-C417-4B56-9814-5297114EF0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{D6733ABA-E769-4552-86FA-7D05EC9E3500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F991466A-19F0-4376-BC57-06275E5BB00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F991466A-19F0-4376-BC57-06275E5BB00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F991466A-19F0-4376-BC57-06275E5BB00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F991466A-19F0-4376-BC57-06275E5BB00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FB66AD-C417-4B56-9814-5297114EF0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FB66AD-C417-4B56-9814-5297114EF0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FB66AD-C417-4B56-9814-5297114EF0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FB66AD-C417-4B56-9814-5297114EF0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6733ABA-E769-4552-86FA-7D05EC9E3500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6733ABA-E769-4552-86FA-7D05EC9E3500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6733ABA-E769-4552-86FA-7D05EC9E3500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6733ABA-E769-4552-86FA-7D05EC9E3500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB026E37-761B-4B01-BEFA-018D66F724DD}
+	EndGlobalSection
+EndGlobal
